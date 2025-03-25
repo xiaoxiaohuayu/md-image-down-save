@@ -1,10 +1,10 @@
 {
-  "name": "md-image-down-save",
+  "name": "md-image-down",
   "version": "1.0.0",
   "description": "从 Markdown 文件中提取并下载图片的工具",
   "main": "imagesExtractSave.js",
   "bin": {
-    "md-image-down-save": "./imagesExtractSave.js"
+    "md-image-down": "./imagesExtractSave.js"
   },
   "type": "module",
   "scripts": {

@@ -13,7 +13,7 @@
 ## 安装
 
 ```bash
-npm install md-image-down-save
+npm install md-image-down
 ```
 
 ## 使用方法
@@ -21,26 +21,32 @@ npm install md-image-down-save
 ### 全局安装
 
 ```bash
-npm install -g md-image-down-save
-md-image-down-save
+npm install -g md-image-down
+md-image-down
 ```
 
 ### 作为项目依赖
 
 ```bash
-npm install md-image-down-save
+npm install md-image-down
 ```
 
 然后在你的代码中：
 
 ```javascript
-import { main } from 'md-image-down-save';
+import { main } from 'md-image-down';
 
 // 运行主函数
 main().catch(console.error);
 ```
 
 ## 配置
+
+```json
+inputDir = 'docs',
+outputDir = 'images',
+mapFile = 'image-map.txt'
+```
 
 默认情况下，工具会：
 - 扫描 `docs` 目录下的所有 Markdown 文件
@@ -55,4 +61,4 @@ main().catch(console.error);
 
 ## 许可证
 
-MIT 
+MIT
